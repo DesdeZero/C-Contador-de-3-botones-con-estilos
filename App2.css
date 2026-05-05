@@ -1,0 +1,88 @@
+/* App.css(mejorado) */
+
+/* Contenedor principal */
+.counter-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(145deg, #f9f9ff, #e6e9f0);
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Título del contador */
+.counter-container h1 {
+  font-size: 3.5rem;
+  color: #2c3e50;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+/* Estilo base para todos los botones */
+.counter-button {
+  margin: 8px;
+  padding: 14px 28px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  background: #ffffff;
+  color: #1e293b;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  min-width: 90px;
+}
+
+/* Efecto hover para todos los botones */
+.counter-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  background: #f8fafc;
+}
+
+/* Efecto al hacer clic */
+.counter-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos específicos para cada botón (opcional) */
+.counter-button:nth-of-type(1) {
+  /* Botón +1 */
+  background: #4ade80;
+  color: #064e3b;
+  border-bottom: 4px solid #166534;
+}
+
+.counter-button:nth-of-type(1):hover {
+  background: #22c55e;
+  color: #052e16;
+}
+
+.counter-button:nth-of-type(2) {
+  /* Botón -1 */
+  background: #f87171;
+  color: #450a0a;
+  border-bottom: 4px solid #7f1d1d;
+}
+
+.counter-button:nth-of-type(2):hover {
+  background: #ef4444;
+  color: #1f0404;
+}
+
+.counter-button:nth-of-type(3) {
+  /* Botón Reiniciar */
+  background: #94a3b8;
+  color: #0f172a;
+  border-bottom: 4px solid #334155;
+}
+
+.counter-button:nth-of-type(3):hover {
+  background: #64748b;
+  color: #020617;
+}
