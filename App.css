@@ -1,0 +1,13 @@
+/* estilos básicos
+
+Contenedor principal del contador */
+.counter-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilo base para todos los botones */
+.counter-button {
+  margin: 5px;
+  padding: 10px;
+}
